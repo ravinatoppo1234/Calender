@@ -12,6 +12,8 @@ public class Calendar
 {
 public static void main(String[] args) throws InterruptedException 
 {
+	
+	System.out.println("-----Eclipse Change---");
 	System.setProperty("webdriver.chrome.driver", "D:\\cjc Software\\Testing\\chromedriver_win32\\chromedriver.exe");
 	WebDriver driver=new ChromeDriver();
 	driver.get("https://www.path2usa.com/travel-companions");
